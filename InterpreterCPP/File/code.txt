@@ -1,0 +1,45 @@
+struct aaa
+{
+int bol;
+}
+
+aaa bbb;
+int p = 5, ffff = 34, ggg = 8 * 7, aaerwew, fdggdfg;
+double sfdfsf, gdreg, arasdsl, koiiio;
+void a(int c, int d)
+{
+
+}
+void lpo()
+{
+
+}
+void fun1(int a, boolean c, function d)
+{
+;;;;;;;;
+int p = 5, ffff = 34, ggg = 8 * 7, aaerwew, fdggdfg;
+double sfdfsf, gdreg, arasdsl, koiiio;
+}
+int p = 5 - 6 - 7 - 8 * 9 * a * (b), ffff = 34, ggg = 8 * 7, aaerwew, fdggdfg;
+double sfdfsf, gdreg, arasdsl, koiiio;
+void fun2(int a, boolean c, function d)
+{
+a = 3435;
+}
+void fun3(int a, boolean c, function d)
+{
+a = 5;
+int l, ak, o = 9 / 3;
+}
+int main()
+{
+bool d = 1 | 2;
+if(c != 3)
+{
+c = true;
+}
+aaa bbb;
+int p = 5, ffff = 34, ggg = 8 * 7, aaerwew, fdggdfg;
+int sfdfsf, gdreg, arasdsl, koiiio;
+}
+// fghgjhklkhgfdsgfdhgfjhghjhjgfhdg
