@@ -19,4 +19,3 @@ repeat {
     token = lexem.getNextToken()
     print(token)
 } while (token != .eof)
-
