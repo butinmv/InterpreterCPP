@@ -32,6 +32,20 @@
   * Логические
 
 ## Что реализовано
-**Лексер**
+### Лексер
 Лексер читает программу С++ как строку(последовательность символов) и преобразует ее в последовательность [токенов](https://github.com/butinmv/InterpreterCPP/blob/master/InterpreterCPP/Lexer/Token.swift). 
-Вы можете увидеть результат,в [модульных тестах](https://github.com/butinmv/InterpreterCPP/blob/master/InterpreterCPPTesting/LexerTester.swift).
+Вы можете увидеть результат в [модульных тестах](https://github.com/butinmv/InterpreterCPP/blob/master/InterpreterCPPTesting/LexerTester.swift).
+![Lexer](Images/Lexer.png)
+
+## Структура программы
+Название файла                   | Содержание файла
+---------------------------------|----------------------
+main.swift                       | Главный файл программы
+File.swift                       | Класс для чтения файла(при скачивании, измените путь к своему txt файлу)
+code.txt                         | Исполняемый код 
+Token.swift                      | Перечисления возможных токенов
+TokenExtension.swift             | Раасширение для токенов
+Lexer.swift                      | Класс реализации Лексера
+LexerTester.swift                | Unit-test(Тестировани лексера)
+FatalError.swift                 | Пока не трогай!
+XCTestCase+FatalError.swift      | Пока не трогай!
