@@ -32,7 +32,7 @@
   * Логические
 
 ## Что реализовано
-**Лексер**
+### Лексер
 Лексер читает программу С++ как строку(последовательность символов) и преобразует ее в последовательность [токенов](https://github.com/butinmv/InterpreterCPP/blob/master/InterpreterCPP/Lexer/Token.swift). 
 Вы можете увидеть результат,в [модульных тестах](https://github.com/butinmv/InterpreterCPP/blob/master/InterpreterCPPTesting/LexerTester.swift).
 ![Lexer](Images/Lexer.png)
