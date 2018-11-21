@@ -93,7 +93,7 @@ public class Lexer {
         if let character = currentCharacter, character == "0" {
             advance()
             lexem += String(character)
-            if let character = currentCharacter, character == "x" {
+            if let character = currentCharacter, (character == "x" || character == "X") {
                 advance()
                 lexem += String(character)
                 while let character = currentCharacter, CharacterSet(charactersIn: "a"..."f").union(CharacterSet(charactersIn: "0"..."9")).union(CharacterSet(charactersIn: "A"..."F")).contains(character.unicodeScalars.first!) {
